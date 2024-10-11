@@ -3001,3 +3001,28 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+/*============= counter ============== */
+.main-bg{
+  background-color: var(--accent-color);
+}
+                .counter {
+                  padding: 20px;
+                  text-align: center;
+                  border: 1px solid #dee2e6;
+                  color: white;
+
+
+                }
+        
+                .counter h2 {
+                  font-size: 2.5rem;
+                  margin: 0;
+                    color: white;
+                }
+        
+                .counter p {
+                  font-size: 1.2rem;
+               
+                }
