@@ -604,6 +604,7 @@ h6 {
   list-style: none;
   padding: 0;
   margin: 0;
+ 
 }
 
 .footer .footer-links ul i {
@@ -623,13 +624,14 @@ h6 {
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: white;
   display: inline-block;
   line-height: 1;
+  margin-left: 10px;
 }
 
 .footer .footer-links ul a:hover {
-  color: var(--accent-color);
+  color: lightgray;
 }
 
 .footer .footer-contact p {
@@ -2638,105 +2640,7 @@ section,
   padding-left: 5px;
 }
 
-/*--------------------------------------------------------------
-# Blog Author Section
---------------------------------------------------------------*/
-.blog-author {
-  padding: 10px 0 40px 0;
-}
 
-.blog-author .author-container {
-  background-color: var(--surface-color);
-  padding: 20px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-
-.blog-author img {
-  max-width: 120px;
-  margin-right: 20px;
-}
-
-.blog-author h4 {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 0px;
-  padding: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-}
-
-.blog-author .social-links {
-  margin: 0 10px 10px 0;
-}
-
-.blog-author .social-links a {
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-  margin-right: 5px;
-}
-
-.blog-author p {
-  font-style: italic;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Blog Comments Section
---------------------------------------------------------------*/
-.blog-comments {
-  padding: 10px 0;
-}
-
-.blog-comments .comments-count {
-  font-weight: bold;
-}
-
-.blog-comments .comment {
-  margin-top: 30px;
-  position: relative;
-}
-
-.blog-comments .comment .comment-img {
-  margin-right: 14px;
-}
-
-.blog-comments .comment .comment-img img {
-  width: 60px;
-}
-
-.blog-comments .comment h5 {
-  font-size: 16px;
-  margin-bottom: 2px;
-}
-
-.blog-comments .comment h5 a {
-  font-weight: bold;
-  color: var(--default-color);
-  transition: 0.3s;
-}
-
-.blog-comments .comment h5 a:hover {
-  color: var(--accent-color);
-}
-
-.blog-comments .comment h5 .reply {
-  padding-left: 10px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-}
-
-.blog-comments .comment h5 .reply i {
-  font-size: 20px;
-}
-
-.blog-comments .comment time {
-  display: block;
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  margin-bottom: 5px;
-}
-
-.blog-comments .comment.comment-reply {
-  padding-left: 40px;
-}
 
 /*--------------------------------------------------------------
 # Comment Form Section
